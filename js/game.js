@@ -10,7 +10,7 @@ let gameScene = new Phaser.Scene('Game');
 
 gameScene.preload = function(){
     /**
-    @brief Loads all the sprites
+    @brief Loads all the sprites.
     **/
     this.load.image('pasto', 'assets/background.png'),this.load.image('oneguy', 'assets/oneguy.png'),this.load.image('twoguy', 'assets/twoguy.png'),this.load.image('threeguy', 'assets/threeguy.png'),this.load.image('fourguy', 'assets/fourguy.png'),this.load.image('yellowguy', 'assets/yellowguy.png'),this.load.image('pinkguy', 'assets/pinkguy.png'),this.load.image('objective', 'assets/objective.png');
 };
